@@ -1,11 +1,13 @@
 import React from 'react'
-import Header from './components/Header'
+import NoUse from './components/NoUse'
+
+export let Context = React.createContext<any>({age:33})
 
 class App extends React.Component{
     render(){
         return (
             <div>
-                <Header/>
+                <Context.Provider value={{age:22}}><NoUse></NoUse></Context.Provider>
             </div>
         )
     }
