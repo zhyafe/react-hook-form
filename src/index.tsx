@@ -1,10 +1,4 @@
 import React from 'react'
 import ReactDom from 'react-dom'
-
-class App extends React.Component{
-    render(){
-        return <div>demos</div>
-    }
-}
-
+import App from './context/App'
 ReactDom.render(<App/>,document.querySelector('#app'))
