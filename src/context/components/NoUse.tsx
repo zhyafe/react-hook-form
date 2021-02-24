@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Consumer from './Consumer'
 import ContextType from './ContextType'
+import Hook from './Hook'
 
 interface Props {
     
@@ -16,7 +17,8 @@ class NoUse extends Component<Props, State> {
         return (
             <div>
                 <Consumer/>
-                {/* <ContextType/> */}
+                <ContextType/>
+                <Hook/>
             </div>
         )
     }
