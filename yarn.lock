@@ -1396,6 +1396,11 @@ es-module-lexer@^0.4.0:
   resolved "https://registry.npm.taobao.org/es-module-lexer/download/es-module-lexer-0.4.0.tgz?cache=0&sync_timestamp=1613825060528&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fes-module-lexer%2Fdownload%2Fes-module-lexer-0.4.0.tgz#21f4181cc8b7eee06855f1c59e6087c7bc4f77b0"
   integrity sha1-IfQYHMi37uBoVfHFnmCHx7xPd7A=
 
+esbuild@^0.9.2:
+  version "0.9.2"
+  resolved "http://192.168.17.142:4873/esbuild/-/esbuild-0.9.2.tgz#7e9fde247c913ed8ee059e2648b0c53f7d00abe5"
+  integrity sha512-xE3oOILjnmN8PSjkG3lT9NBbd1DbxNqolJ5qNyrLhDWsFef3yTp/KTQz1C/x7BYFKbtrr9foYtKA6KA1zuNAUQ==
+
 escalade@^3.1.1:
   version "3.1.1"
   resolved "https://registry.npm.taobao.org/escalade/download/escalade-3.1.1.tgz#d8cfdc7000965c5a0174b4a82eaa5c0552742e40"
@@ -2257,3 +2262,10 @@ yocto-queue@^0.1.0:
   version "0.1.0"
   resolved "https://registry.npm.taobao.org/yocto-queue/download/yocto-queue-0.1.0.tgz?cache=0&sync_timestamp=1606290538096&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fyocto-queue%2Fdownload%2Fyocto-queue-0.1.0.tgz#0294eb3dee05028d31ee1a5fa2c556a6aaf10a1b"
   integrity sha1-ApTrPe4FAo0x7hpfosVWpqrxChs=
+
+zhyafe-esbuild@^1.0.1:
+  version "1.0.1"
+  resolved "http://192.168.17.142:4873/zhyafe-esbuild/-/zhyafe-esbuild-1.0.1.tgz#bfe5bd9f87e903b3d873970ad8bfd1ecc25838f1"
+  integrity sha512-PlA9RYmkNWOrbkLjDyRU5Cl1h64Q/cpfIt5XWhcq5PZaXOr5GIv8kIT00lEkFBsb1bzuGma8gPc6Rj17K4p9wQ==
+  dependencies:
+    esbuild "^0.9.2"
