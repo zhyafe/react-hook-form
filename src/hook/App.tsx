@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import StateView from "./StateView";
 
 interface Props {}
 interface State {}
@@ -7,7 +8,12 @@ class App extends Component<Props, State> {
   state = {};
 
   render() {
-    return <div>hook</div>;
+    return (
+      <>
+        <p>hook</p>
+        <StateView />
+      </>
+    );
   }
 }
 
