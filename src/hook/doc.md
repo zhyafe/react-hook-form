@@ -28,3 +28,4 @@ hook 可以在函数组件中使用 class 特性, hook+函数组件替代 class
 - 使用格式 const [count, setCount] = useState(0);
 - 多个 useState()会有自己的数据存储位置
   每个组件内部都有一个列表数据格式，每当调用一次 useState()就会获取对应位置数据，并将指针向后移动一位
+- 如果调用 setSate() useState 会返回新的 state, 如果没有调用 setState useState 会返回原先的值
