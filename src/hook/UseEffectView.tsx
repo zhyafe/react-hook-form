@@ -2,7 +2,7 @@ import React, { ReactElement, useEffect, useState } from "react";
 
 interface Props {}
 
-export default function EffectView({}: Props): ReactElement {
+export default function UseEffectView({}: Props): ReactElement {
   const [count, setCount] = useState({ num: 0 });
   useEffect(() => {
     console.log("effect");

@@ -1,7 +1,8 @@
 import React, { Component } from "react";
-import EffectView from "./EffectView";
-import StateView from "./StateView";
-
+import UseCallbackView from "./UseCallbackView";
+import UseEffectView from "./UseEffectView";
+import UseMemoView from "./UseMemoView";
+import UseStateView from "./UseStateView";
 interface Props {}
 interface State {}
 
@@ -23,8 +24,10 @@ class App extends Component<Props, State> {
             chang show
           </button>
         </p>
-        <StateView />
-        {this.state.isShow && <EffectView />}
+        {/* <UseStateView />
+        {this.state.isShow && <UseEffectView />} */}
+        {/* <UseCallbackView /> */}
+        <UseMemoView />
       </>
     );
   }
