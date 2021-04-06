@@ -33,7 +33,6 @@ const ControlYup = (props: Props) => {
       <Controller
         control={control}
         name="name"
-        rules={{ required: true, minLength: 9 }}
         render={({ field: { ref, ...resFiled }, fieldState, formState }) => {
           console.log("control data", fieldState.error, formState.errors);
 
