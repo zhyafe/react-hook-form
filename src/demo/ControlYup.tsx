@@ -21,7 +21,6 @@ function Input(field) {
 
 const schema = yup.object().shape({
   name: yup.string().required().min(9),
-  age: yup.number().positive().integer().required(),
 });
 
 const ControlYup = (props: Props) => {
