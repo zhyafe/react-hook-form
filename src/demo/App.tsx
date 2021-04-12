@@ -2,6 +2,7 @@ import React from "react";
 import BaseUse from "./BaseUse";
 import Control from "./Control";
 import ControlYup from "./ControlYup";
+import SetError from "./SetError";
 
 function App() {
   return (
@@ -12,6 +13,8 @@ function App() {
       <Control />
       <p> controlYup -----------------------</p>
       <ControlYup />
+      <p> setError ------------------------</p>
+      <SetError />
     </div>
   );
 }
