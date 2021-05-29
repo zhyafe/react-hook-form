@@ -7,14 +7,18 @@ function BaseUse() {
     handleSubmit,
     formState: { errors },
     setValue,
+    watch,
   } = useForm();
-  const onSubmit = (data) => console.log(data);
-  console.log(register("demo"));
+  const onSubmit = (data) => console.log("[form:data]", data);
+  console.log("[api:register]", register("demo"));
+  console.log("[api:watch]", watch("firstName"), errors.firstName);
 
   return (
     <div>
       <form onSubmit={handleSubmit(onSubmit)}>
-        <input {...register("firstName", { required: true })} />
+        <input
+          {...register("firstName", { required: true, pattern: /aabb/ })}
+        />
         {errors.firstName && <span>firstName 不能为空</span>}
         {/* register an input */}
         <input {...register("lastName", { required: true })} />
