@@ -1,4 +1,4 @@
-## 基本使用
+## 基本使用 获取表单值
 
 useForm 创建对象；返回的对象中注意两个字段，handleSubmit, register
 
