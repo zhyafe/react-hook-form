@@ -10,7 +10,7 @@ function App({}: Props): ReactElement {
   };
   return (
     <div>
-      <p>react-hook-form 基本使用</p>
+      <p>react-hook-form 基本使用 表单绑定 获取表单值</p>
       <form onSubmit={handleSubmit(submit)}>
         <input type="text" {...register("phone")} autoComplete="off" />
         <br />
